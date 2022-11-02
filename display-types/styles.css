@@ -1,3 +1,81 @@
-h1 {
-    color:red;
+
+*{
+    margin:0;
+    padding:0;
+    color:white;
+    
+  
+}
+
+
+
+
+
+
+#main-container{
+    display:flex;
+    gap:30px;
+    height:50vh;
+    width:50%;
+   
+}
+
+
+
+
+
+
+
+
+.block{
+    display:block;
+    height:100%;
+    width:33.33%;
+    background-color: lavender;
+}
+
+.block div {
+    width:100%;
+    height:20%;
+
+}
+
+
+.flex{
+    display:flex;
+    height:100%;
+    width:33%;
+    justify-content:space-evenly;
+    gap:20px;
+    background-color:sandybrown;
+}
+.flex div {
+    
+    width:200px;
+
+}
+
+.grid{
+    display:grid;
+    background-color:peachpuff;
+    height:100%;
+    width:33.33%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 100px;
+    
+}
+
+.grid div {
+    
+}
+
+.upper{
+    height:900px;
+    
+}
+
+.inner{
+    
+    
+    background-color:green;
 }

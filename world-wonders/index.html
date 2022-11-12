@@ -8,7 +8,7 @@
   </head>
   <body>
     <main>
-      <div class="navigation">
+      <nav>
         <ul>
           <li><a href="#ancient"> Ancient</a></li>
           <li><a href="#new">New</a></li>
@@ -17,7 +17,7 @@
           <li><a href="#nature">Nature</a></li>
           <li><a href="#cities">Cities</a></li>
         </ul>
-      </div>
+      </nav>
       <h1>Wonders of the World</h1>
       <h2>Map</h2>
       <a href="https://www.mapsofworld.com/world-seven-wonders.htm"
@@ -278,6 +278,33 @@
 
       <footer>
         Contact Me
+        <form action="redirection.html" method="POST">
+          <p>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" autocomplete="off" />
+          </p>
+          <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" autocomplete="off" />
+          </p>
+          <p>
+            <label for="contact-reason"> Reason for contact: </label>
+            <select name="contact-reason" id="contact-reason">
+              <option value="question">Questions</option>
+              <option value="interest">Interest</option>
+            </select>
+          </p>
+          <p>
+            <label for="comments"> Comment: </label>
+            <textarea name="comments" id="comments" rows="4"></textarea>
+          </p>
+          <fieldset>
+            <legend> Urgent? </legend>
+            <label for="asap"> Check if you need quick assistance</label>
+            <input type="checkbox" id="asap" name="asap">
+          </fieldset>
+          <button type="submit">Enter</button>
+        </form>
         <small>Copyright © 2022 - All rights reserved</small>
         <address>Wikipedia</address>
       </footer>

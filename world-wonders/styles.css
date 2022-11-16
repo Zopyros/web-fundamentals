@@ -1,8 +1,81 @@
-.test{
-    width: 200px;
-    height:200px;
-    background-color: blue;
-    position: sticky;
-    top: 0;
+
+
+.container{
+    height: 1000px;
+    width:1000px;
+    border: 1px solid black;
+    writing-mode: vertical-rl;
+    direction: rtl;
+    
+   
+}
+
+
+p{
+    width:300px;
+    height:300px;
+    display:inline-block;
+
     
 }
+
+
+
+
+.red{
+    background-color:red;
+    color:white;
+}
+.blue{
+    background-color:blue;
+}
+
+.green{
+    background-color:green;
+}
+
+
+
+.violet{
+    background-color:violet;
+}
+
+
+
+.gold{
+    background-color:gold;
+}
+
+
+
+.orange{
+    background-color:orange;
+}
+
+.teal{
+    background-color:teal;
+}
+
+.black{
+    background-color:black;
+}
+
+.white{
+    background-color:cyan;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

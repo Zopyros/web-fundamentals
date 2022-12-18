@@ -213,3 +213,8 @@ p{
 span{
     color:white;
 }
+
+h2:hover{
+    color:seagreen;
+    font-size: 3.5rem;
+}

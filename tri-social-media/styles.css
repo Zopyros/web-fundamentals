@@ -222,3 +222,8 @@ h2:hover{
     text-decoration: none;
     color: black;
 }
+
+body{
+    background-color: black;
+    color:white;
+}

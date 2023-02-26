@@ -249,3 +249,8 @@ body{
 .left-side-bar li:hover {
     color: #afe1af;
 }
+
+.persons{
+    border-style: ridge;
+    border: thick solid #45cea2;
+}

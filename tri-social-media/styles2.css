@@ -1,4 +1,17 @@
 .nav-left img ~ li:hover{
     font-size: x-large;
     color:#36454F;}
+    
 
+.options{
+
+margin-block-start:20px;
+width:58%;
+padding:1rem;
+
+
+}
+
+ul {
+    text-align: center;
+}

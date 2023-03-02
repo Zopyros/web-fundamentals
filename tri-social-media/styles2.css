@@ -15,3 +15,13 @@ padding:1rem;
 ul {
     text-align: center;
 }
+
+
+.fans2{
+    text-align: center;
+}
+
+.fans2::first-letter {
+   color: red;
+    
+  }

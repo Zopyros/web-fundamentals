@@ -25,3 +25,8 @@ ul {
    color: red;
     
   }
+
+  .friends{
+    position:relative;
+    margin-inline-start: 100px;
+  }

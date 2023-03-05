@@ -38,3 +38,12 @@ ul {
     
   }
 
+.right-top{
+  display:grid;
+  grid-template-columns: repeat(5, 1fr);
+  
+}
+
+.persons{
+  height:100%;
+}

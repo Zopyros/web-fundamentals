@@ -47,3 +47,10 @@ ul {
 .persons{
   height:100%;
 }
+
+.left-side-bar{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  
+}

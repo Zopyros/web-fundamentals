@@ -124,7 +124,9 @@ height:120px;
     border:solid black;
     box-shadow: 3px 7px;
     gap:25px;
-    overflow: scroll;
+    height:auto;
+   
+    
  
 }
 .persons{
@@ -139,9 +141,9 @@ height:120px;
 }
 
 .right-bottom{
-    display:flex;
+    display:inline-block;
     flex-direction:column;
-    height:60%;
+   
     
     
     
@@ -149,12 +151,10 @@ height:120px;
 }
 
 .right-bottom-content{
-    display:flex;
-    justify-content:space-evenly;
-    max-width: 100%;
-    height: auto;
-    min-height:200px;
     
+   
+    border:solid 2px white;
+    position: inherit;
     
     
    
@@ -184,6 +184,7 @@ height:120px;
     justify-content:flex-end;
     gap:2em;
     background-color:black;
+    margin-top:200px;
     
 
 }

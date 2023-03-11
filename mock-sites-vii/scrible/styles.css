@@ -28,6 +28,7 @@
   position: absolute;
   margin-inline-start: 80%;
   margin-block-start: -4rem;
+
 }
 
 #main-navigation {
@@ -42,6 +43,8 @@
 
 #main-navigation > ul li {
   display: inline;
+  vertical-align:middle;
+ 
 }
 
 #main-navigation > ul li:nth-of-type(n + 2) {
@@ -55,3 +58,18 @@
 .arrow:hover {
   color: cyan;
 }
+
+
+#theme{
+  position:relative;
+  margin-inline-start:50%;
+  line-height: 2.5rem;
+}
+
+.news address {
+ 
+text-align: center;
+
+
+}
+

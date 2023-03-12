@@ -1,0 +1,44 @@
+
+:root {
+    --d-margin-block-start: 2rem;
+    --d-margin-inline-start: 2rem;
+    --d-margin-block-end: 2rem;
+    --d-line-height: 1.5rem;
+  }
+
+  .duck-role{
+   display:grid;
+   /* grid-template-columns: 1fr 1fr [col-three]1fr;
+   grid-template-rows:1fr 1fr [ro-three] 1fr; */
+   grid-template-areas:  "duck duck rand1"
+                          "duck duck rand2"
+                          "rands2 rand3 rand5";
+  
+   
+    
+  }
+
+  .duck-role figure img {
+    max-inline-size: 300px;
+    
+    
+  }
+
+  /* .duck-role figure {
+    grid-row-start:1;
+    grid-row-end: ro-three;
+    grid-column-start: 1;
+    grid-column-end: col-three;
+  } */
+
+  .duck-role figure{
+    grid-area: duck;
+
+  }
+
+  
+  .duck-role pre{
+    grid-area: rand3;
+    
+
+  }

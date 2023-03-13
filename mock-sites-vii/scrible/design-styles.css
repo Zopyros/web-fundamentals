@@ -1,0 +1,59 @@
+
+:root {
+    --d-margin-block-start: 2rem;
+    --d-margin-inline-start: 2rem;
+    --d-margin-block-end: 2rem;
+    --d-line-height: 1.5rem;
+  }
+
+
+  h1,h2,h3{
+    font-family: 'Nunito', sans-serif;
+  }
+
+  p,span,small,li,dd, blockquote{
+    font-family: 'EB Garamond', serif;
+  }
+
+  menu{
+    background-color:rgba(56,56,56,.8);
+    margin-inline-start: 0;
+   
+
+  }
+
+
+  #main-navigation{
+    background-color: #066163;
+    opacity: .9;
+    margin-inline-start: 0;
+    text-align: center;
+  }
+
+  #main-navigation a, #main-navigation li {
+    color:#CDBE78;
+  }
+
+  html{
+    background-image: url(images/pastel.jpg);
+    background-size: cover;
+  }
+
+
+  .stars pre:hover{
+    text-transform: uppercase;
+    
+}
+
+
+menu button {
+    padding:1.5rem;
+    margin:1.5rem;
+    border-radius: 20px;
+    width:10rem;
+}
+
+menu button:hover{
+    background-color:#CDBE78;
+    transition: background-color .5s ease;
+}

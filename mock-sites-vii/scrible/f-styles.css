@@ -19,9 +19,7 @@
     align-self:center;
 }
 
-.stars pre:hover{
-    text-transform: uppercase;
-}
+
 .line{
     margin:1rem 0;
     margin-inline-start:-2rem; 

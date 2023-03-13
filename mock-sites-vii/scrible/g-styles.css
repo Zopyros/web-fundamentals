@@ -13,6 +13,7 @@
    grid-template-areas:  "duck duck rand1"
                           "duck duck rand2"
                           "rands2 rand3 rand5";
+  grid-auto-flow: column;
   
    
     

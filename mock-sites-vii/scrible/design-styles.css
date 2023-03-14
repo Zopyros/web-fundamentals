@@ -57,3 +57,57 @@ menu button:hover{
     background-color:#CDBE78;
     transition: background-color .5s ease;
 }
+
+
+
+.duck-role > h2{
+
+margin-inline-start: 30rem;
+
+    
+}
+
+
+@keyframes example {
+    from {
+      transform: scale3d(1, 1, 1);
+    }
+  
+    10%,
+    20% {
+      transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    }
+  
+    30%,
+    50%,
+    70%,
+    90% {
+      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+  
+    40%,
+    60%,
+    80% {
+      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+  
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+
+  .duck-role > h2 {
+    animation-name: example;
+    animation-duration: 4s;
+  }
+
+  @media screen and (max-width:659px)
+  {
+        menu {
+            background-color: lavender;
+           
+        }
+
+
+  }

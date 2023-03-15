@@ -111,3 +111,11 @@ margin-inline-start: 30rem;
 
 
   }
+
+  .swan { 
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-block-start: 2rem;
+    margin-block-end: 2rem;
+
+  }

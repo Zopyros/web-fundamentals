@@ -119,3 +119,9 @@ margin-inline-start: 30rem;
     margin-block-end: 2rem;
 
   }
+
+  .mandarin{display:flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+  }

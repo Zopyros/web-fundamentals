@@ -125,3 +125,12 @@ margin-inline-start: 30rem;
     gap:20px;
     align-items: center;
   }
+
+
+  .numbers{
+    display:flex;
+    gap:40px;
+    margin-inline-start:7rem;
+    margin-block-end: 2rem;
+
+  }

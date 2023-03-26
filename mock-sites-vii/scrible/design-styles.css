@@ -143,3 +143,15 @@ margin-inline-start: 30rem;
 
 
   }
+
+  .todo{
+    margin: 4rem;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+  }
+
+  .todo h2 {
+    margin-block-end: 2rem;
+  }

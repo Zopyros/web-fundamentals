@@ -1,0 +1,42 @@
+.main-nav{
+    height:112px;
+
+
+}
+
+#logo{
+    height:112px;
+    background-color: rgb(221, 221, 221);
+   
+}
+
+.hero-background{
+
+    height:1000px;
+    background: linear-gradient(to bottom, #0e0a0a, #000049);
+}
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.top-nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-nav li {
+    list-style: none;
+    padding-inline-start: 29px;
+}
+.bottom-nav {
+    display:flex;
+}
+
+.bottom-nav li {
+    list-style: none;
+    padding-inline-start: 29px;
+  
+}

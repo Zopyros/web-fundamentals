@@ -136,3 +136,39 @@ label{
     width:100%;
 
 }
+
+.last-offers{
+    display:flex;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  margin-block-start: 5rem;
+  padding:2rem;
+  border: 1px solid rgb(230, 230, 230); 
+  margin-inline-start: 20rem;
+  margin-inline-end: 20rem;
+  border-radius: 1.5rem;
+  background-color: rgb(243, 243, 243);
+  
+
+
+}
+
+.last-offers img {
+
+    width:120px;
+    border-radius: 1.5rem;
+    margin-inline-start: 3rem;
+}
+
+
+
+.last-offers button{
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    width:20rem;
+    margin-inline-end: 4rem;
+    background-color: black;
+    color:white;
+}

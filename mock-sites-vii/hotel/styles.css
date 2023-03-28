@@ -1,12 +1,11 @@
 .main-nav{
     height:112px;
-
-
+    
 }
 
 #logo{
     height:112px;
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(165, 134, 68);
    
 }
 
@@ -33,10 +32,107 @@
 }
 .bottom-nav {
     display:flex;
+    margin-inline-end: 2rem;
 }
 
 .bottom-nav li {
     list-style: none;
     padding-inline-start: 29px;
   
+}
+
+/* Start of hero background */
+
+.hero-background{
+    background-image: url('images/pool.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-blend-mode: multiply;
+  
+}
+
+
+
+.hero-navigation{
+
+width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  background:white;
+  border: 2px solid black;
+  position: absolute; /* set the position of the section to absolute */
+  top: 15%; /* adjust the top position as needed */
+  left:0;
+  right:0;
+  margin: 0 auto; 
+  padding:2rem;
+  border-radius: 20px;
+
+ 
+}
+
+.top-input{
+    display:flex;
+    padding-bottom:20px;
+    gap:20px;
+    justify-content:center;
+    align-items: center;
+}
+
+.find-hotel{
+    padding:5px 0;
+    border-radius: 10px;
+    background-color:black;
+    color:white;
+    width:10rem;
+
+}
+
+
+input[type="text"],select{
+  
+  width: 300px; /* adjust width as needed */
+  font-size: 16px; /* set font size */
+  padding: 10px; /* add padding */
+  border-radius: 5px; /* add border radius */
+  border: 1px solid #ccc; /* add border */
+ 
+}
+
+label{
+    margin-inline-start:20px;
+}
+
+.bonus{
+    position: absolute; 
+  bottom: 400px; 
+  left: 50%; 
+  transform: translateX(-125%); 
+  color:white;
+ 
+
+  
+  
+  
+}
+
+
+.bonus button:last-child{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-block-start:3rem
+
+}
+
+
+.bonus button {
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    padding-block-start:10px;
+    padding-block-end:10px;
+    border-radius: 16px;
+    width:100%;
+
 }

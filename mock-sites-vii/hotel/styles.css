@@ -172,3 +172,36 @@ label{
     background-color: black;
     color:white;
 }
+
+
+/* End of last offers section*/
+
+
+.popular-offers{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.popular-offers-header{
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.popular-offers-content{
+    display:flex;
+}
+
+.blocks{
+    width:400px;
+    height:400px;
+    background-image: url(images/bar.jpg);
+    background-position: contain;
+}
+
+.inner-block{
+    width: 200px;
+    height:200px;
+}

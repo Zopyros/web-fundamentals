@@ -187,6 +187,8 @@ label{
 .popular-offers-header{
     display:flex;
     justify-content:space-between;
+    width:80%;
+    margin-block-start: 4rem;
 
 }
 
@@ -197,11 +199,15 @@ label{
 .blocks{
     width:400px;
     height:400px;
-    background-image: url(images/bar.jpg);
-    background-position: contain;
+    background-image: url(images/pool.jpg);
+    background-position: cover;
 }
 
 .inner-block{
+    position:relative;
     width: 200px;
     height:200px;
+   top:20px;
+   left:100px;
+    padding:100px
 }

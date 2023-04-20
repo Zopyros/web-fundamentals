@@ -224,10 +224,20 @@ label{
     width: 100%;
     background-color: black;
     height:20vh;
+    color:white;
+    display: flex;
+    justify-content: center;
 
 
 }
 
+
+
+.take-inner{
+
+      width: 70%;
+    margin: auto;
+}
 
 
 /* End of Take Section Hotels*/

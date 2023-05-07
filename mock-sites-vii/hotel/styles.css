@@ -160,12 +160,6 @@ label{
 
 }
 
-.last-offers img {
-
-    width:120px;
-    border-radius: 1.5rem;
-    margin-inline-start: 3rem;
-}
 
 
 
@@ -197,26 +191,61 @@ label{
 
 }
 
-.popular-offers-content{
-    display:flex;
-}
-
-.blocks{
-    width:400px;
-    height:400px;
-    background-image: url(images/pool.jpg);
-    background-position: cover;
-}
-
-.inner-block{
-    position:relative;
-    width: 200px;
-    height:200px;
-   top:20px;
-   left:100px;
-    padding:100px
-}
-
+.popular-offers-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .blocks {
+    position: relative; /* Add position relative for the overlay element */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    margin-right: 20px;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+  }
+  
+  .blocks::before { /* Add overlay element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Set the background color to semi-transparent black */
+  }
+  
+  .blocks:nth-child(1) {
+    background-image: url('images/kitchen.jpg');
+    background-size: cover;
+  }
+  
+  .blocks:nth-child(2) {
+    background-image: url('images/lobby.jpg');
+    background-size: cover;
+  }
+  
+  .blocks:nth-child(3) {
+    background-image: url('images/top.jpg');
+    background-size: cover;
+  }
+  
+  .blocks:nth-child(4) {
+    background-image: url('images/view.jpg');
+    background-size: cover;
+  }
+  
+  .inner-block {
+    position: relative; /* Add position relative for the text element */
+    text-align: center;
+    z-index: 1; /* Set the z-index to a higher value than the overlay element */
+    color:white;
+  }
+ 
 /* End of New Hotels*/
 
 

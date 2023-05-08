@@ -198,7 +198,7 @@ label{
   }
   
   .blocks {
-    position: relative; /* Add position relative for the overlay element */
+  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -209,15 +209,7 @@ label{
     background-color: rgba(0, 0, 0, 0.4);
     
   }
-  
-  .blocks::before { /* Add overlay element */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Set the background color to semi-transparent black */
-  }
+ 
   
   .blocks:nth-child(1) {
     background-image: url('images/kitchen.jpg');
